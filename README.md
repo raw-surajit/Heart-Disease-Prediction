@@ -37,26 +37,42 @@ The model analyzes 11 core clinical features to predict the risk status:
 
 ## ⚙️ Installation & Usage
 
-1. Clone the repository:
+### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/heart-disease-prediction.git
 cd heart-disease-prediction
+```
 
-2. Create and Activate Virtual Environment:
+### 2️⃣ Create & Activate Virtual Environment
+
 ```bash
 python -m venv .venv
-# Windows
-.\.venv\Scripts\activate
-# Linux/Mac
-source .venv/bin/activate
+```
 
-3. Install Dependencies:
+#### Windows
+
+```bash
+.\.venv\Scripts\activate
+```
+
+#### Linux / macOS
+
+```bash
+source .venv/bin/activate
+```
+
+### 3️⃣ Install Dependencies
+
 ```bash
 pip install -r requirements.txt
+```
 
-4. Run the Application:
+### 4️⃣ Run the Application
+
 ```bash
 streamlit run app.py
+```
 
 ## 📈 Model Performance
 
